@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  1 SEP 2021 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  1 SEP 2021 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1008,54 +1008,69 @@ Package biblatex Info: ... file 'clerton_cv.bbl' found.
 Package biblatex Info: Reference section=0 on input line 77.
 Package biblatex Info: Reference segment=0 on input line 77.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 116.
+(Font)              scaled to size 24.88pt on input line 117.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 116.
+(Font)              scaled to size 24.88pt on input line 117.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 116.
+(Font)              scaled to size 12.0pt on input line 117.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 116.
+(Font)              scaled to size 12.0pt on input line 117.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 116.
+(Font)              scaled to size 8.0pt on input line 117.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 116.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 116.
+(Font)              scaled to size 8.0pt on input line 117.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 117.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 116.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 117.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 116.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 117.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 116.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 117.
+
+Underfull \hbox (badness 1406) in paragraph at lines 117--117
+[][][] [][][] [][][] [][][] 
+ []
+
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 116.
+(Font)              <7> on input line 117.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 116.
-<avatar_clerton.jpg, id=17, 735.74875pt x 721.69624pt>
+(Font)              <5> on input line 117.
+<avatar_clerton.jpg, id=18, 735.74875pt x 721.69624pt>
 File: avatar_clerton.jpg Graphic file (type jpg)
 <use avatar_clerton.jpg>
-Package pdftex.def Info: avatar_clerton.jpg  used on input line 116.
+Package pdftex.def Info: avatar_clerton.jpg  used on input line 117.
 (pdftex.def)             Requested size: 735.74695pt x 721.69449pt.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 128.
+(Font)              scaled to size 17.28pt on input line 129.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 128.
+(Font)              scaled to size 17.28pt on input line 129.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 130.
+(Font)              scaled to size 10.0pt on input line 131.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 130.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 132.
+(Font)              scaled to size 9.0pt on input line 131.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 133.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 132.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 140.
+(Font)              scaled to size 9.0pt on input line 134.
 
-Overfull \hbox (3.28566pt too wide) in paragraph at lines 156--157
+Overfull \hbox (1.27414pt too wide) in paragraph at lines 134--135
+[]\T1/lato-TLF/m/n/9 Implemented fron-tend with \T1/lato-TLF/b/n/9 Re-act \T1/lato-TLF/m/n/9 and \T1/lato-TLF/b/n/9 Type-Script\T1/lato-TLF/m/n/9 , in-te-grated with \T1/lato-TLF/b/n/9 Kafka\T1/lato-TLF/m/n/9 , 
+ []
+
+
+Overfull \hbox (10.79163pt too wide) in paragraph at lines 149--151
+\T1/lato-TLF/m/n/9 and \T1/lato-TLF/b/n/9 JSF\T1/lato-TLF/m/n/9 , back-end us-ing \T1/lato-TLF/b/n/9 Java (6-8) \T1/lato-TLF/m/n/9 with \T1/lato-TLF/b/n/9 Spring\T1/lato-TLF/m/n/9 , run-ning on \T1/lato-TLF/b/n/9 Docker/Rancher\T1/lato-TLF/m/n/9 . 
+ []
+
+
+Overfull \hbox (3.28566pt too wide) in paragraph at lines 157--158
 \T1/lato-TLF/b/n/9 (5.0)\T1/lato-TLF/m/n/9 , \T1/lato-TLF/b/n/9 JSF\T1/lato-TLF/m/n/9 , \T1/lato-TLF/b/n/9 Portlets (JSR 286)\T1/lato-TLF/m/n/9 , \T1/lato-TLF/b/n/9 Web-Sphere \T1/lato-TLF/m/n/9 and \T1/lato-TLF/b/n/9 IBM MQ\T1/lato-TLF/m/n/9 , guided by \T1/lato-TLF/b/n/9 Scrum\T1/lato-TLF/m/n/9 .  
  []
 
@@ -1077,9 +1092,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,8n,130p,1174b,4073s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on /Users/cra/workspace/playground/AltaCV/clerton_cv.pdf (1 page, 332264 bytes).
+Output written on /Users/cra/workspace/playground/AltaCV/clerton_cv.pdf (1 page, 332172 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

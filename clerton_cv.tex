@@ -1,0 +1,291 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.6.2, 28 Aug 2021) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 package.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+% \colorlet{name}{black}
+% \colorlet{tagline}{PastelRed}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+% \colorlet{subheading}{PastelRed}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Use (and optionally edit if necessary) this .cfg if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+\input{pubs-authoryear.cfg}
+
+%% Use (and optionally edit if necessary) this .cfg if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+% \input{pubs-num.cfg}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Clerton Araujo}
+\tagline{Software Engineer}
+
+%% You can add multiple photos on the left or right
+\photoR{2.5cm}{avatar_clerton}
+% \photoL{2cm}{avatar_clerton}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{clertonfilho@gmail.com}
+  \phone{+49-0-176-6232-2695}
+  % \mailaddress{Firedrichsberger Straße, 4, 10243 Berlin}
+  % \homepage{marissamayr.tumblr.com}
+  % \twitter{@marissamayer}
+  \linkedin{clerton}
+  \location{Berlin, Germany}
+%   \github{github.com/clertonraf} % I'm just making this up though.
+  % \orcid{0000-0000-0000-0000} % Obviously making this up too.
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+	%%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+}
+
+\makecvheader
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Experience}
+
+\cvevent{Fullstack developer}{Issuu}{Dec 2020 -- Ongoing}{Berlin, Germany}
+\begin{itemize}
+\item Led the \$5 billion acquisition of the company with Verizon -- the entity which believed most in the immense value Yahoo!\ has created
+\item Acquired Tumblr for \$1.1 billion and moved the company's blog there
+\end{itemize}
+\divider
+
+\cvevent{Fullstack developer}{LQ Enterprise}{Jul 2018 -- Nov 2020}{Berlin, Germany}
+\begin{itemize}
+\item Innovative solutions for German social sector.
+\item Fullstack developer implementing frontend with \textbf{React} and \textbf{TypeScript}, backend
+with \textbf{.NET core} on \textbf{Azure Cloud}.
+\end{itemize}
+\divider
+
+\cvevent{Software Engineer}{Softplan}{May 2017 -- Jun 2018}{Florianopolis, Brazil}
+\begin{itemize}
+\item Web and Mobile projects for Brazilian Government.
+\item As fullstack developer, I created frontend with \textbf{Angular 2}, \textbf{React} and \textbf{JSF}, backend using \textbf{Java (versions 6, 7 and 8)} with \textbf{Spring}, running on \textbf{Docker/Rancher}.
+Also delivered projects using \textbf{Scala}, \textbf{React Native} and \textbf{MongoDB}.
+\end{itemize}
+\divider
+
+\cvevent{Team Leader}{Scopus/Bradesco}{Jul 2016 -- Apr 2017}{Curitiba, Brazil}
+\begin{itemize}
+\item Development Team Leader of the Innovation Department. Projects for Bradesco Bank.
+\item As Team Leader of "Online Insurance Shopping" project, I used \textbf{Java (5.0)}, \textbf{JSF}, \textbf{Portlets (JSR 286)}, \textbf{WebSphere} and \textbf{IBM MQ}, guided by \textbf{Scrum}.
+\item As Manager of "mobile bank discount offers by geo-localization" project, I did reports for Bank directors, managed project budget, client feedbacks and developers. The app was made using \textbf{Swift (iOS)}, \textbf{Java (Android)} and backend with \textbf{Java/Spring}.
+\end{itemize}
+
+\divider
+
+\cvevent{Consultant Specialist}{HSBC Brazil}{Mar 2013 -- Jun 2016}{Curitiba, Brazil}
+
+\begin{itemize}
+\item Implemented many HSBC projects for the Brazilian branch.
+\item Fullstack developer using Bank internal frameworks based on \textbf{Java (1.4 and 5.0)}, \textbf{Spring framework}, \textbf{JSF}, \textbf{Portlets}, \textbf{Javascript}, \textbf{Websphere} and \textbf{IBM MQ}. I had active contributions into Internet Bank, Public Web Site and Digital Security projects.
+\end{itemize}
+
+% \divider
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+% \cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \hspace*{-1em}  %% quick hack to move the wheelchart a bit left
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/13em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/11em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/11em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ \mbox{employees} that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+% use ONLY \newpage if you want to force a page break for
+% ONLY the currentc column
+\newpage
+
+% \cvsection{Publications}
+
+% \nocite{*}
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+% \cvsection{Life Philosophy}
+% \begin{quote}
+% ``If you don't have any shadows, you're not standing in the light.''
+% \end{quote}
+
+% \cvsection{Most Proud of}
+
+% \cvachievement{\faTrophy}{Courage I had}{to take a sinking ship and try to make it float}
+
+% \divider
+
+% \cvachievement{\faHeartbeat}{Persistence \& Loyalty}{I showed despite the hard moments and my willingness to stay with Yahoo after the acquisition}
+
+% \divider
+
+% \cvachievement{\faChartLine}{Google's Growth}{from a hundred thousand searches per day to over a billion}
+
+% \divider
+
+% \cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
+
+% \cvsection{Strengths}
+
+% \cvtag{Hard-working (18/24)}
+% \cvtag{Persuasive}\\
+% \cvtag{Motivator \& Leader}
+
+% \divider\smallskip
+
+% \cvtag{UX}
+% \cvtag{Mobile Devices \& Applications}
+% \cvtag{Product Management \& Marketing}
+
+\cvsection{Languages}
+
+\cvskill{Portuguese}{5}
+% \divider
+
+\cvskill{English}{4.5}
+% \divider
+
+\cvskill{German}{2.5}
+
+\cvskill{Spanish}{2}%% supports X.5 values.
+
+
+\cvsection{Education}
+
+\cvevent{M.S.\ in Computer Science}{Universidade Federal de Pernambuco}{Mar 2009 -- Mar 2011}{}
+
+\begin{itemize}
+  \item Focused on Machine Learning with classifiers written in \textbf{R}, \textbf{Python}, and \textbf{Java}
+  \item \href{https://link.springer.com/chapter/10.1007/978-3-642-15060-9_3}{Semi-supervised Approach for Finding Cancer Sub-classes on Gene Expression Data}.
+\end{itemize}
+
+\divider
+
+\cvevent{B.S.\ in Computer Science}{Universidade Federal de Campina Grande}{Mar 2004 -- Feb 2009}{}
+
+\newpage
+
+% \cvsection{Referees}
+
+% % \cvref{name}{email}{mailing address}
+% \cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
+% {Address Line 1\\Address line 2}
+
+% \divider
+
+% \cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
+% {Address Line 1\\Address line 2}
+
+\end{paracol}
+
+\end{document}

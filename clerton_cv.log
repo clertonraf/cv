@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  1 SEP 2021 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.1)  1 SEP 2021 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1069,11 +1069,6 @@ Overfull \hbox (10.79163pt too wide) in paragraph at lines 149--151
 \T1/lato-TLF/m/n/9 and \T1/lato-TLF/b/n/9 JSF\T1/lato-TLF/m/n/9 , back-end us-ing \T1/lato-TLF/b/n/9 Java (6-8) \T1/lato-TLF/m/n/9 with \T1/lato-TLF/b/n/9 Spring\T1/lato-TLF/m/n/9 , run-ning on \T1/lato-TLF/b/n/9 Docker/Rancher\T1/lato-TLF/m/n/9 . 
  []
 
-
-Overfull \hbox (3.28566pt too wide) in paragraph at lines 157--158
-\T1/lato-TLF/b/n/9 (5.0)\T1/lato-TLF/m/n/9 , \T1/lato-TLF/b/n/9 JSF\T1/lato-TLF/m/n/9 , \T1/lato-TLF/b/n/9 Portlets (JSR 286)\T1/lato-TLF/m/n/9 , \T1/lato-TLF/b/n/9 Web-Sphere \T1/lato-TLF/m/n/9 and \T1/lato-TLF/b/n/9 IBM MQ\T1/lato-TLF/m/n/9 , guided by \T1/lato-TLF/b/n/9 Scrum\T1/lato-TLF/m/n/9 .  
- []
-
 [1
 
  </Users/cra/workspace/playground/AltaCV/avatar_clerton.jpg>] (/Users/cra/workspace/playground/AltaCV/clerton_cv.aux)
@@ -1086,13 +1081,13 @@ Package logreq Info: Writing requests to 'clerton_cv.run.xml'.
 Here is how much of TeX's memory you used:
  39038 strings out of 478994
  755974 string characters out of 5858185
- 1486534 words of memory out of 5000000
+ 1485534 words of memory out of 5000000
  55871 multiletter control sequences out of 15000+600000
  672109 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,8n,130p,1174b,4073s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on /Users/cra/workspace/playground/AltaCV/clerton_cv.pdf (1 page, 332172 bytes).
+Output written on /Users/cra/workspace/playground/AltaCV/clerton_cv.pdf (1 page, 332025 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
